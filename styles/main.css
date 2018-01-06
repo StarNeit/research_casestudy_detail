@@ -408,6 +408,11 @@ body{
     text-align: center;
 }
 
+.trans_opportunity_box__image{
+    max-width: 1154px;
+    width: 100%;
+}
+
 .participate_box{
     margin-left: 16px;
     margin-right: 16px;
@@ -421,6 +426,8 @@ body{
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .participate_box__desc{
@@ -472,6 +479,11 @@ body{
     text-align: center;
 }
 
+.participate_box__infographics__img1 > img{
+    max-width: 230px;
+    width: 100%;
+}
+
 .participate_box__infographics__lg_title{
     font-family: 'ProximaNovaBold';
     color: #fff;
@@ -492,6 +504,11 @@ body{
 .participate_box__infographics__img2{
     margin-bottom: 37px;
     text-align: center;
+}
+
+.participate_box__infographics__img2 > img{
+    max-width: 230px;
+    width: 100%;
 }
 
 .participate_box__infographics-bottom{
@@ -801,11 +818,22 @@ body{
     .header__content__button{
         margin-bottom: 90px;
     }
+    .participate_box__percent{
+        margin-top: 0;
+    }
+    .participate_box__infographics-bottom{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
 
 @media (max-width: 767px) {
     .block_learn, .block_contactus{
         margin: 0 !important;
         width: 100% !important;
+    }
+    .metafound_box__content{
+        padding-left: 0;
+        padding-right: 0;
     }
 }
